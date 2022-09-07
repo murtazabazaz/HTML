@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+</head>
+
+<body>
+    <a href="/form.css"></a>
+    <h2>
+        <center>Please fill This Form</center>
+    </h2><br><br>
+
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myname"id="name">
+        </div><br>
+        <label for="role">Your Role :</label>
+        <div>
+            <input type="text" name="myrole" id="role">
+        </div><br>
+        <label for="email">Email:</label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div><br>
+        <label for="date">DOB:</label>
+        <div>
+            <input type="date" name="mydate" id="date">
+        </div><br>
+        <label for="pass">Enter Password:</label>
+        <div>
+             <input type="password" name="mypassword" id="pass">
+        </div><br>
+        <label for="num">My Salary:</label>
+        <div>
+            <input type="number" name="mynumber" id="num">
+        </div><br>
+        <label for="eli">Are you Eligible?:</label>
+        <div>
+            <input type="checkbox" name="myeligibility" id="eli">
+        </div><br>
+        
+        <div>
+           Gender: Male:<input type="radio" name="mygender" id="gen">
+             Female:<input type="radio" name="mygender" id="gen">
+             Others: <input type="radio" name="mygender" id="gen">
+        </div><br> 
+        <div>
+            Write about Yourself: <br><textarea name="mytext" cols="30" rows="20"></textarea>
+        </div><br>
+        <div>
+        <label for="car">Car:</label>
+        <select name="My Car " id="car">
+            <option value="Creata">Hyundai Creata</option>
+            <option value="baleno">baleno</option>
+            <option value="thar">Thar</option>
+            <option value="santro">Hyundai santro</option>
+            <option value="venue">Hyundai venue</option>
+            <option value="verna">Hyundai verna</option>
+        </select>
+        </div><br>
+        <div>
+            <input type="submit" value="submit now">
+        </div> <div>
+        <input type="reset" name="Reset now">
+        </div>
+
+    </form>
+</body>
+
+</html>
